@@ -10,10 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    word-spacing: 20px;
+    word-spacing: 7px;
     background-color: black;
 
 }
+
+
 
 
 
@@ -26,6 +28,11 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
     font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.32);
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 90000px;
 }
 
 .hero {
