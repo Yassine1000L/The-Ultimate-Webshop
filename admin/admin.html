@@ -1,13 +1,45 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Admin – Productbeheer</title>
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+
+<h1>Admin – Productbeheer</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Product</th>
+        <th>Prijs</th>
+        <th>Status</th>
+        <th>Acties</th>
+    </tr>
+
+    <tr><td>1</td><td>NovaStrike RGB Pro</td><td>€129,99</td><td>Nieuw</td><td>Bewerk | Verwijder</td></tr>
+    <tr><td>2</td><td>ShadowKey TKL</td><td>€99,99</td><td>Sale</td><td>Bewerk | Verwijder</td></tr>
+    <tr><td>3</td><td>TitanCore Mechanical X</td><td>€149,99</td><td>Limited</td><td>Bewerk | Verwijder</td></tr>
+    <tr><td>4</td><td>PulseFire RGB 60%</td><td>€89,99</td><td>-</td><td>Bewerk | Verwijder</td></tr>
+    <tr><td>5</td><td>ApexStorm Elite</td><td>€179,99</td><td>Nieuw</td><td>Bewerk | Verwijder</td></tr>
+    <tr><td>6</td><td>CyberBlade RGB MK2</td><td>€139,99</td><td>Sale</td><td>Bewerk | Verwijder</td></tr>
+
+</table>
+
+<h2>Product toevoegen</h2>
+
+<form>
+    <input type="text" placeholder="Productnaam">
+    <input type="number" placeholder="Prijs">
+    <select>
+        <option>Nieuw</option>
+        <option>Sale</option>
+        <option>Limited</option>
+    </select>
+    <textarea placeholder="Beschrijving"></textarea>
+    <button>Toevoegen</button>
+</form>
 
 </body>
 </html>
