@@ -1,15 +1,17 @@
+
 body {
-    margin: 0;
+    margin: 0; /* Geen wit ruimte errond */
     font-family: 'Poppins', Arial, sans-serif;
     background: #111;
     color: white;
 }
 
+/* Header css gemaakt voor elke pagina met logo en navigatie */
 header {
     height: 120px;
     padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Flexbox om de logo en navigatie naast elkaar te zetten */
+    justify-content: space-between; /* de ogo links en de navigatie rechts gedaan*/
     align-items: center;
     background-color: black;
 }
@@ -20,6 +22,7 @@ header img {
     margin: 5px;
 }
 
+/* nav a links css aangemaakt home enz.*/
 nav a {
     color: white;
     margin-left: 15px;
@@ -31,35 +34,39 @@ nav a {
     line-height: 1;
 }
 
+/* Hero op de homepage */
 .hero {
     text-align: center;
     font-size: 22px;
 }
 
+/* Container voor de producten te koop zijn */
 .products {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Producten naast elkaar */
+    flex-wrap: wrap; /* Producten gaan naar volgende rij */
     gap: 50px;
     padding: 60px;
     justify-content: center;
-
 }
 
+/* css voor elke producten te koop */
 .product {
     background: #1c1c1c;
     width: 220px;
     padding: 15px;
     text-align: center;
-    position: relative;
+    position: relative; /* labels nieuw enz. */
     font-size: 115%;
 }
 
+/* Afbeelding van de producten  */
 .product img {
     width: 100%;
     height: 140px;
-    object-fit: cover;
+    object-fit: cover; /* Afbeelding netjes schalen zonder vervormen */
 }
 
+/* Link van "bekijk meer" */
 .product a {
     display: inline-block;
     margin-top: 10px;
@@ -69,6 +76,7 @@ nav a {
     text-decoration: none;
 }
 
+/* Label van nieuw sale enz... */
 .label {
     position: absolute;
     top: 5px;
@@ -77,39 +85,45 @@ nav a {
     font-size: 20px;
 }
 
+
 .new {
-    background: green;
+    background-color: green;
 }
+
 
 .sale {
-    background: red;
+    background-color: red;
 }
+
 
 .limited {
-    background: orange;
+    background-color: orange;
 }
 
-
+/* Footer onderaan elke pagina */
 .site-footer {
     background-color: black;
     padding: 40px 20px 25px;
     margin-top: 80px;
 }
 
+/* Container van de footer met drie kolommen */
 .footer-container {
     max-width: 1000px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid; /* Grid voor nette kolommen */
+    grid-template-columns: repeat(3, 1fr); /* Drie gelijke kolommen */
     gap: 60px;
     text-align: center;
 }
 
+/* Titels in de footer */
 .footer-column h3 {
     margin-bottom: 12px;
     color: white;
 }
 
+/* Tekst, +links in de footer */
 .footer-column p,
 .footer-column a {
     color: #ccc;
@@ -119,10 +133,12 @@ nav a {
     font-size: 15px;
 }
 
+/* Als je op de links ga als je erover gaat */
 .footer-column a:hover {
     color: white;
 }
 
+/* Copyright tekst */
 .copyright {
     text-align: center;
     margin-top: 35px;
@@ -130,38 +146,37 @@ nav a {
     color: #777;
 }
 
+/* Titel boven tweede productoverzicht */
 .section-title {
     text-align: center;
     font-size: 32px;
     margin: 60px 0 30px;
 }
 
-/* Een media query voor op mobiel ook te kunnen gebruiken  */
+/* Media query voor mobiele schermen */
 @media (max-width: 768px) {
 
-    /* Productpagina */
+    /* paginatie voor mobiel */
     .product-detail {
         flex-direction: column;
         align-items: center;
         padding: 30px;
     }
 
+    /* Afbeelding kleiner maken op mijn gsm */
     .product-image img {
         width: 100%;
         max-width: 300px;
     }
 
+    /* Tekst centreren op mijn gsm */
     .product-info {
         text-align: center;
     }
 
-    /* Footer */
+    /* Footer kolommen onder elkaar zetten op gsm */
     .footer-container {
         grid-template-columns: 1fr;
         gap: 30px;
     }
 }
-
-
-
-

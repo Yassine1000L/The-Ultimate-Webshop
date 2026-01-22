@@ -1,55 +1,64 @@
+/* Algemene stijl voor de admin pagina */
 body {
-    font-family: Arial;
-    background: #f2f2f2;
-    padding: 20px;
+    font-family: Arial; /* Simpel en leesbaar lettertype voor admin */
+    background: #f2f2f2; /* Lichte achtergrond om admin te onderscheiden van frontend */
+    padding: 20px; /* Ruimte rond de inhoud */
 }
 
+/* Tabel voor productoverzicht in admin */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
+    width: 100%; /* Tabel neemt volledige breedte */
+    border-collapse: collapse; /* Geen dubbele randen */
+    margin-bottom: 30px; /* Ruimte onder de tabel */
 }
 
+/* Tabellenkoppen en cellen */
 th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 1px solid #ccc; /* Duidelijke randen rond cellen */
+    padding: 10px; /* Ruimte in de cellen voor leesbaarheid */
 }
 
+/* Formulier om producten toe te voegen */
 form {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    width: 300px; /* Beperkte breedte zodat formulier compact blijft */
+    display: flex; /* Flexbox voor verticale uitlijning */
+    flex-direction: column; /* Elementen onder elkaar */
+    gap: 10px; /* Ruimte tussen inputvelden */
 }
 
+/* Header van de admin pagina */
 header {
     padding: 0px 15px 0px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    word-spacing: 7px;
-    background-color: black;
+    display: flex; /* Logo en navigatie naast elkaar */
+    justify-content: space-between; /* Logo links, navigatie rechts */
+    align-items: center; /* Verticaal centreren */
+    background-color: black; /* Zelfde kleur als frontend */
 }
 
-
+/* Logo in de admin header */
 header img {
-    height: 110px;
+    height: 110px; /* Zelfde logo-grootte als frontend */
     margin: 5px;
 }
 
+/* Navigatie links in de admin header */
 header nav a {
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; /* Andere kleur om admin te onderscheiden */
     padding: 15px;
-    word-spacing: 20px;
-    border-radius: 90000px;
+    border-radius: 90000px; /* Ronde knoppen */
+    text-decoration: none; /* Geen onderlijning */
+    color: white;
+    margin-left: 10px;
 }
 
+/* Paginatie onder de tabel (visueel, zonder functionaliteit) */
 .pagination {
-    text-align: center;
-    margin-top: 20px;
+    text-align: center; /* Paginatie in het midden */
+    margin-top: 20px; /* Afstand tot tabel */
     font-size: 20px;
 }
 
+/* Hover effect op paginatie links */
 .pagination a:hover {
-    color: red;
+    color: red; /* Kleurverandering bij hover */
 }
