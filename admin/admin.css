@@ -21,3 +21,25 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
+header {
+    padding: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 7px;
+    background-color: black;
+}
+
+
+header img {
+    height: 110px;
+    margin: 5px;
+}
+
+header nav a {
+    background-color: cornflowerblue;
+    padding: 15px;
+    word-spacing: 20px;
+    border-radius: 90000px;
+}

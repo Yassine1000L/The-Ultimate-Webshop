@@ -16,3 +16,13 @@ header a:hover {
     border-radius: 15px;
     background-color: grey;
 }
+
+header {
+    padding: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 7px;
+    background-color: black;
+}
+
