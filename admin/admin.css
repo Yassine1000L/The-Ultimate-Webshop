@@ -43,3 +43,13 @@ header nav a {
     word-spacing: 20px;
     border-radius: 90000px;
 }
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.pagination a:hover {
+    color: red;
+}

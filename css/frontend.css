@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     background: #111;
     color: white;
 }
 
 header {
-    padding: 0px 15px 0px 0px;
+    height: 120px;
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    word-spacing: 7px;
     background-color: black;
 }
 
@@ -26,10 +26,9 @@ nav a {
     text-decoration: none;
     font-size: 17px;
     background-color: rgba(128, 128, 128, 0.32);
-    padding: 8px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 90000px;
+    padding: 12px 28px;
+    border-radius: 999px;
+    line-height: 1;
 }
 
 .hero {
