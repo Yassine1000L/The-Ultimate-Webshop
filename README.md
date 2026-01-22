@@ -41,3 +41,15 @@ aan het project werkt eenvoudig om de code te begrijpen, aan te passen en uit te
 
 
 
+
+
+
+Gedetailleerde info over hoe je deze hebt gebruikt
+
+
+Tijdens dit project heb ik verschillende hulpmiddelen gebruikt. Ik heb de modules en voorbeelden van Canva gebruikt om inspiratie te krijgen voor de layout en opbouw van de website. Voor HTML en CSS heb ik regelmatig de website W3Schools gebruikt om te kijken hoe bepaalde tags en stijlen werken. Voor het aanpakken van het project heb ik ChatGPT gebruikt om te vragen hoe ik stap per stap moest beginnen en hoe ik onderdelen kon opbouwen. Ook bij bugs en fouten in de code heb ik ChatGPT gebruikt om te begrijpen wat er fout ging en hoe ik dit kon oplossen. ChatGPT werd gebruikt als ondersteuning tijdens het maken van het project.
+
+
+
+
+
