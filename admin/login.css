@@ -1,21 +1,25 @@
 body {
-    background-color: #f2f2f2;
+    background-color: rgba(0, 42, 255, 0.62);
     font-family: Arial, sans-serif;
 }
 
 /* Titel */
 h1 {
     text-align: center;
-    margin-top: 80px;
-    color: #333;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
 }
+
 
 /* Formulier centreren */
 form {
-    width: 300px;
+    width: 350px;
     margin: 30px auto;
-    padding: 20px;
-    background-color: red;
+    padding: 30px;
+    background-color: rgba(169, 169, 169, 0.25);
     border-radius: 20px;
     justify-content: center;
 }
@@ -24,7 +28,10 @@ form {
 label {
     display: block;
     margin-top: 15px;
-    color: #333;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
 
 }
 
@@ -47,5 +54,6 @@ button {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.56);
+    cursor: pointer;
 }
