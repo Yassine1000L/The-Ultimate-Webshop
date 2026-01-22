@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Titel */
+
 h1 {
     text-align: center;
     margin-top: 30px;
@@ -35,14 +35,13 @@ label {
 
 }
 
-/* Inputs */
 input {
     width: 93%;
     padding: 8px;
     margin: 5px 0px;
 }
 
-/* Knop */
+/* Knopjes */
 button {
     width: 100%;
     margin-top: 20px;
