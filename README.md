@@ -53,3 +53,78 @@ Tijdens dit project heb ik verschillende hulpmiddelen gebruikt. Ik heb de module
 
 
 
+
+
+
+
+Plan van aanpak en timing doorheen de project ->
+
+1. Analyse van de opdracht
+In het begin heb ik de opdracht goed gelezen om te begrijpen wat er verwacht werd.
+Ik heb gekeken welke pagina’s verplicht waren (frontend, productpagina, admin) en welke extra’s punten konden opleveren zoals responsiviteit, documentatie en structuur.
+Tijd:  1 lesuur
+________________________________________
+2. Opzetten van de basisstructuur
+Daarna heb ik de mappenstructuur aangemaakt:
+•	index.html voor de homepage
+•	aparte mappen voor admin, productpagina’s, CSS en afbeeldingen
+Zo bleef het project overzichtelijk en logisch opgebouwd.
+Tijd:  1 lesuur
+________________________________________
+3. Ontwikkeling van de frontend (homepage)
+Ik ben gestart met de homepage:
+•	header met logo en navigatie
+•	hero sectie
+•	productoverzicht met meerdere producten
+•	labels zoals Nieuw, Sale en Limited
+Later heb ik een tweede productoverzicht toegevoegd om te tonen dat ik dit meerdere keren kan opbouwen.
+Tijd:   2 lesuren
+________________________________________
+4. Productdetailpagina’s
+Vervolgens heb ik een productdetailpagina gemaakt met:
+•	afbeelding
+•	beschrijving
+•	prijs
+•	score met sterren
+•	stock, levering, garantie
+•	reviews
+•	knoppen (winkelmand en bestel nu – simulatie)
+Daarna heb ik deze pagina gedupliceerd en aangepast voor een tweede product met andere inhoud maar dezelfde layout.
+Tijd:  2 lesuren
+________________________________________
+5. Admin gedeelte
+Daarna heb ik het admin-gedeelte gemaakt:
+•	loginpagina (simulatie)
+•	admin dashboard met producttabel
+•	formulier om producten toe te voegen
+•	visuele paginatie onder de tabel
+Alles is zonder JavaScript, enkel om te tonen hoe het zou werken.
+Tijd:   2 lesuren
+________________________________________
+6. Styling met CSS
+De volledige website werd gestyled met CSS:
+•	Flexbox voor header en productoverzichten
+•	CSS Grid voor de footer
+•	consistente kleuren en layout
+•	Google Font toegevoegd
+Ook werd erop gelet dat frontend en admin visueel verschillend zijn.
+Tijd:   2 lesuren
+________________________________________
+7. Responsiviteit
+Ik heb een media query toegevoegd zodat de website ook werkt op kleinere schermen.
+Op mobiel komen elementen onder elkaar te staan, zoals producten en footer-kolommen.
+Tijd:   1 lesuur
+________________________________________
+8. Documentatie en commentaar
+Op het einde heb ik:
+•	duidelijke commentaar toegevoegd in HTML en CSS
+•	een README-bestand geschreven
+•	keuzes uitgelegd in simpele taal
+Zo kan een andere programmeur snel begrijpen hoe het project werkt.
+Tijd:  1 lesuur
+
+
+
+
+
+
