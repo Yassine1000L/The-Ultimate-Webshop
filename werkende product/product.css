@@ -1,0 +1,18 @@
+header a {
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+header a:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: grey;
+}
